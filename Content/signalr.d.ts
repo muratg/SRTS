@@ -134,10 +134,8 @@ interface ConnectionSettings {
 }
 
 
-declare var $: {
-    (): any;
-    (any): any;
+interface JQueryStatic {
     signalR: SignalR;
     connection: SignalR;
     hubConnection(url?: string, queryString?: any, logging?: boolean): HubConnection;
-};
+}
