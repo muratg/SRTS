@@ -49,7 +49,6 @@
     <Compile Include="src\SignalRModule.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="NuGet\Package.proj" />
     <None Include="NuGet\SRTS.nuspec" />
   </ItemGroup>
